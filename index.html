@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>Registration Form</h1>
+        <form action="index.html" method="POST">
+            <div class="name">
+                <h2>Name</h2>
+
+                <div class="input_field">
+                    <input id="first_name" type="text" name="first_name" required> <br>
+                    <label class="first_name" for="first_name">first name</label>
+                    <input id="last_name" type="text" name="last_name" required> <br>
+                    <label class="last_name" for="last_name">last name</label>
+                </div>
+            </div>
+            <div class="name">
+                <h2>Company</h2>
+
+                <input type="text" id="company" name="company" required>
+            </div>
+            <div class="name">
+                <h2>Email</h2>
+
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="name">
+                <h2>phone</h2>
+
+                <input id="code" class="code" type="text" name="area_code" required>
+                <label for="code" class="code">Area code</label>
+                <input id="phone" class="phone" type="text" name="phone" required>
+                <label for="phone" class="phone">Phone Number</label>
+
+            </div>
+            <div class="name">
+                <h2>Subject</h2>
+
+                <select name="subject" id="option" class="option" required>
+                    <option disabled selected>Choose Option</option>
+                    <option value="">Responsive Web design</option>
+                    <option value="">Wordpress theme customization</option>
+                    <option value="">wordpress theme development</option>
+                    <option value="">front end development</option>
+                    <option value="">Fullstack web Development</option>
+
+                </select>
+            </div>
+
+            <div class="name radio">
+                <h2>Are You a Beginner?</h2>
+
+                <input id="yes" type="radio" name="begginer" checked>
+                <label for="yes">Yes</label>
+                <input id="no" type="radio" name="begginer">
+                <label for="no">No</label>
+            </div>
+
+            <button type="submit">Register</button>
+
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.main {
+    background: rgb(0,0,0,0.5);
+    width: 800px;
+    margin: 40px auto;
+    text-align: left;
+    color: #fff;
+}
+
+.main h1 {
+    color: #fff;
+    text-align: center;
+    background: rgb(0,0,0,0.7);
+    padding: 10px 0px;
+    border-radius: 20px;
+
+}
+
+.name {
+    color: #fff;
+    margin-left: 10px;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    
+}
+#first_name {
+    position: relative;
+    left: 130px;
+    top: -35px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+
+}
+.first_name {
+    position: relative;
+    left: 123px;
+    top: -35px;
+    padding: 10px;
+    width: 200px;
+    
+
+}
+#last_name {
+    position: relative;
+    left: 344px;
+    top: -75px;
+    padding: 10px;
+    width: 200px;
+    border:none;
+    border-radius: 10px;
+}
+.last_name {
+    position: relative;
+    left: 430px;
+    top: -65px;
+    padding: 10px;
+    width: 200px;
+    
+
+}
+
+#company {
+    position: relative;
+    width: 65%;
+    top: -120px;
+    left: 130px;
+    padding: 10px;
+    margin-top: 90px;
+    border-radius: 10px;
+    border: none;
+}
+
+#email {
+    position: relative;
+    width: 65%;
+    top: -120px;
+    left: 130px;
+    padding: 10px;
+    margin-top: 90px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#code {
+    position: relative;
+    left: 130px;
+    top: -35px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+
+}
+.code {
+    position: relative;
+    left: -100px;
+    top: 0px;
+    padding: 10px;
+    width: 200px;
+}
+
+#phone {
+    position: relative;
+    left: 115px;
+    top: -35px;
+    padding: 10px;
+    width: 200px;
+    border:none;
+    border-radius: 10px;
+
+}
+.phone {
+    position: relative;
+    left: -100px;
+}
+
+#option {
+    position: relative;
+    left: 130px;
+    top: -35px;
+    padding: 10px;
+    width: 67%;
+    border: none;
+    border-radius: 10px;
+}
+.radio h2 {
+    margin-bottom: 30px ;
+}
+
+#no {
+    
+    margin-left: 20px;
+}
+button {
+    padding: 10px 30px;
+    border-radius: 10%;
+    font-size: 20px;
+    margin-bottom: 40px;
+    background:greenyellow;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-left: 40%;
+    
+}
+
+@media(max-width:991px)  {
+
+
+   
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+
+
+}
